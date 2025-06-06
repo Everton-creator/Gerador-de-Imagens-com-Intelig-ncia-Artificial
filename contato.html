@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/responsivo.css">
+    <title>Entre em Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+    </header>
+     <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="gerar.html">Gerar Imagens</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+     <main>
+        <section>
+            <h2>Envie uma Mensagem</h2>
+            <form action="/enviar-mensagem" method="POST">
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </p>
+                
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                
+                <p>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </p>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Outras Formas de Contato</h2>
+            <article>
+                <h3>Suporte por E-mail</h3>
+                <p>suporte@geradoria.com</p>
+            </article>
+            
+            <article>
+                <h3>Atendimento Comercial</h3>
+                <p>comercial@geradoria.com</p>
+            </article>
+            
+            <article>
+                <h3>Telefone</h3>
+                <p>(00) 0000-0000</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Perguntas Frequentes</h2>
+            <details>
+                <summary>Como funciona o gerador de imagens por IA?</summary>
+                <p>Nosso sistema utiliza algoritmos de inteligência artificial para transformar suas descrições em imagens únicas em segundos.</p>
+            </details>
+            
+            <details>
+                <summary>Quais formatos de imagem são suportados?</summary>
+                <p>Geramos imagens nos formatos PNG, JPG e WEBP com alta qualidade.</p>
+            </details>
+            
+            <details>
+                <summary>Posso usar as imagens comercialmente?</summary>
+                <p>Sim, todas as imagens geradas são livres para uso comercial.</p>
+            </details>
+        </section>
+    </main>
+    </ul>
+     <footer>
+        <div>
+            <div>
+                <h3>Projeto Gerador de Imagens IA</h3>
+                <p>Transformando palavras em arte através da inteligência artificial</p>
+            </div>
+            
+            <div>
+                <h3>Contato</h3>
+                <p>Email: contato@geradoria.com</p>
+                <p>Telefone:  (00) 0000-0000</p>
+            </div>
+        </div>
+        
+        <div>
+            <p>© 2023 Projeto Gerador de Imagens IA. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
